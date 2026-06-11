@@ -1,5 +1,5 @@
 /** @format */
 
 export default function about() {
-  return <div>About Page</div>;
+  return <div className='bold bg-black text-white '>About Page</div>;
 }
