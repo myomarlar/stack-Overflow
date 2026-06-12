@@ -1,6 +1,6 @@
 /** @format */
 
-export default async function BlogDetails({
+export default async function BLogsDetails({
   params,
 }: {
   params: Promise<{ slugs: string }>;
@@ -8,7 +8,7 @@ export default async function BlogDetails({
   const { slugs } = await params;
   return (
     <div>
-      <h1>BlogDetails - {slugs}</h1>
+      <h1>BlogsDetails - {slugs}</h1>
     </div>
   );
 }
