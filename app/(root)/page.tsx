@@ -3,5 +3,5 @@
 import Image from "next/image";
 
 export default function Home() {
-  return <div>Home Page</div>;
+  return <div className='text-center '>Hello Next.js</div>;
 }

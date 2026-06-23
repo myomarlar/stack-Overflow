@@ -1,10 +1,6 @@
 /** @format */
 
-export default function BlogsLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function BlogsLayout() {
   return (
     <div>
       <h1> BlogsLayout Page</h1>
