@@ -5,7 +5,7 @@ export default function NavLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <div>
-      <h1>Nav Layout bar</h1>
+      <h1>Nav Layout </h1>
       {children}
     </div>
   );
